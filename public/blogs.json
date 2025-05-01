@@ -1,0 +1,64 @@
+[
+    {
+        "id":"1",
+    
+        "cover":"https://i.ibb.co.com/F46M4kyP/Javascript-736400-1280.png",
+        "title": "top 10 ES6 Features",
+        "author_img":"https://i.ibb.co.com/PZJc75x7/20230919-202010-0000.png",
+        "author":"hwsd",
+        "posted_date":"September",
+        "reading_time":5,
+        "hashtags":[
+            "beginners",
+            "es6",
+            "ghghghg" 
+        ]
+    },
+
+    {
+        "id":"2",
+    
+        "cover":"https://i.ibb.co.com/F46M4kyP/Javascript-736400-1280.png",
+        "title": "top 10 JS Features",
+        "author_img":"https://i.ibb.co.com/PZJc75x7/20230919-202010-0000.png",
+        "author":"hwsd",
+        "posted_date":"September",
+        "reading_time":5,
+        "hashtags":[
+            "beginners",
+            "es6",
+            "ghghghg"
+        ]
+    },
+    {
+        "id":"3",
+    
+        "cover":"https://i.ibb.co.com/F46M4kyP/Javascript-736400-1280.png",
+        "title": "top 10 Figma Features",
+        "author_img":"https://i.ibb.co.com/PZJc75x7/20230919-202010-0000.png",
+        "author":"hwsd",
+        "posted_date":"September",
+        "reading_time":5,
+        "hashtags":[
+            "beginners",
+            "es6",
+            "ghghghg"
+        ]
+    },
+    {
+        "id":"4",
+    
+        "cover":"https://i.ibb.co.com/F46M4kyP/Javascript-736400-1280.png",
+        "title": "top 10 React Features",
+        "author_img":"https://i.ibb.co.com/PZJc75x7/20230919-202010-0000.png",
+        "author":"hwsd",
+        "posted_date":"September",
+        "reading_time":5,
+        "hashtags":[
+            "beginners",
+            "es6",
+            "ghghghg"
+        ]
+    }
+
+]
