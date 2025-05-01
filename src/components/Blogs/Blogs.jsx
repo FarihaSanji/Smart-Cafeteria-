@@ -12,7 +12,7 @@ const Blogs = ({handleBookMark,handleMarkAsRead }) => {
   }, [])
   // console.log(blogs);
   return <div>
-    <h1 className="text-3xl">total : {blogs.length}</h1>
+    <h1 className="text-3xl my-5">Items Available : {blogs.length}</h1>
 
     <div className="all-blogs grid grid-cols-2">
         {

@@ -25,11 +25,10 @@ const Blog = ({ blog, handleBookMark, handleMarkAsRead }) => {
             </button>
           </div>
 
-          <h2 className="card-title">{blog.title} </h2>
+          <h2 className="card-title ">{blog.title} </h2>
 
           <p>
-            A card component has a figure, a body part, and inside body there
-            are title and actions parts
+          Espresso is a coffee prepared by forcing hot water through finely-ground coffee beans. It is known for its robust flavour and bold, concentrated taste. 
           </p>
 
           <div className="flex">
@@ -39,12 +38,12 @@ const Blog = ({ blog, handleBookMark, handleMarkAsRead }) => {
           </div>
 
           <div className="card-actions justify-end">
-            <button
-              onClick={() => handleMarkAsRead(blog.reading_time, blog.id)}
-              className="btn btn-primary"
+            <button 
+              onClick={() => handleMarkAsRead(blog.Saved_Items, blog.id)}
+              className="btn btn-primary bg-amber-800"
             >
               {" "}
-              mark as read{" "}
+              order now {" "}
             </button>
           </div>
         </div>

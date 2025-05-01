@@ -4,9 +4,10 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-sm">
+            <div className="navbar bg-orange-800  shadow-sm">
   <div className="flex-1">
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="btn btn-ghost text-xl font-bold text-amber-50">Scribbles Cafe
+    </a>
   </div>
   <div className="flex-none">
     <div className="dropdown dropdown-end">
@@ -16,10 +17,10 @@ const Navbar = () => {
           <span className="badge badge-sm indicator-item">8</span>
         </div>
       </div>
-      <div
+      <div 
         tabIndex={0}
-        className="card card-compact dropdown-content bg-base-100 z-1 mt-3 w-52 shadow">
-        <div className="card-body">
+        className="card card-compact dropdown-content bg-base-100 z-1 mt-3 w-52 shadow mr-5 " >
+        <div className="card-body ">
           <span className="text-lg font-bold">8 Items</span>
           <span className="text-info">Subtotal: $999</span>
           <div className="card-actions">
@@ -30,10 +31,10 @@ const Navbar = () => {
     </div>
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-        <div className="w-10 rounded-full">
+        <div className="w-14 rounded-full ">
           <img
             alt="Tailwind CSS Navbar component"
-            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+            src="https://i.ibb.co.com/LzHSgqV5/cup-coffee-with-heart-drawn-foam.jpg" />
         </div>
       </div>
       <ul
@@ -45,7 +46,7 @@ const Navbar = () => {
             <span className="badge">New</span>
           </a>
         </li>
-        <li><a>Settings</a></li>
+        <li><a>Menu</a></li>
         <li><a>Logout</a></li>
       </ul>
     </div>

@@ -24,7 +24,7 @@ handleRemoveFromBookmark(id)
 
 }
 
-const handleRemoveFromBookmark = (id) =>{
+const handleRemoveFromBookmark = (id) =>{ 
   const remainingBookMark = bookmarked.filter((mark) => mark.id !== id);
   setBookmarked(remainingBookMark)
 }
@@ -51,7 +51,7 @@ return (
         </div>
         
         <div className="right-container w-[30%]  ">
-          <h1>Reading time : {readingCount}</h1> 
+          <h1>Saved Items: {readingCount}</h1> 
           <h1>Bookmarked count:{bookmarked.length} </h1>
 
           {
